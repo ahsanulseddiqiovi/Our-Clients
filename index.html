@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Clients </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .logo-container {
+            width: 100%;
+            overflow: hidden;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .logo-track {
+            display: flex;
+            width: calc(250px * 10); /* Adjust based on the number of logos */
+            animation: scroll 20s linear infinite;
+        }
+
+        .logo-track img {
+            width: 250px;
+            margin: 0 15px;
+            filter: grayscale(100%);
+            transition: filter 0.3s;
+        }
+
+        .logo-track img:hover {
+            filter: grayscale(0%);
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(calc(-250px * 10)); /* Move by the width of half the logos */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="logo-container">
+    <div class="logo-track">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlEsriIJo7Dlct1rNP3yc112vTf1E-5gvG_Hp4njylNIGKqPLXI8nxa1qdMPoDJO7WJ943_z92DdkX2O49s-irONl9pK-m3iWqVMpnLOBeeiazlHaJlKkdVCJhXIFwQN68Lm_AdXwurp3c7C4BijMMboisZ5cgSMtZ1PRvtyhbtfOMh3WMn-XiUXfq5xJP/s1600/AVvXsEhzHn1e8P2XhZmS04I8eL-lE2Ir.png" alt="Client 1">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_GYTcr0I3IA299wJCdf_mXbtcpfX6knYsvl9iNNZsMiAKc50yeJZiwETJWr8RXtBbgFOhKyB5iX5V2YhBvpVfUNrSdb0rZNRQIgJMn5aTAk7VJ_d0l2vMoQFBa_EjoeL3h9orclEQ8lhY5O8gw-7zwpCNMxuIdfDGCKqMxr6N-YkFKLC-9SZabbODYJVu/s1600/Untitled%20design%20%281%29.png" alt="Client 2">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2DkDg90Dv3arTay2PceXnEr4U4k-zrKka7KSBcvc-86KRb0bNw51C0BhsXtKpql2GXasr4N8YJnrFvDnMA4engSrrMg7iQd68lELd4fSgsYGofD2UYB36ZGa_ObFt0lJwoOKP313dvUL-ZlTLyyMfHFWcEermyJgS79-T2SMPqRokKit0YnQ4JoMc16Dc/s1600/dfuirguifdg.png" alt="Client 3">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxRrNhuIJp2PUDdmkCkg_qUhBiGHjgvexSUktZ67rhVK4MXBwN4XDCepgjcRjIFzNoNR9kg8ckT3bFKBtMTSB8wip5FL7724ZwvXbzvnExUClkgpwl49DTRlU871kB8amjV9ZOd7nUSO768JFfY7rEB1rXTAAPCqLjhf6JpEkLAkqw-kUn-TMZk7Cqu1tm/s1600/as%20logo%203d%20new.png" alt="Client 4">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8pZIWccjChU_DYdRLhjxz1zQ5Fcf1H7v_eRvv5KLVG9IzOwZ6gFOYprhyNU7iCjud3XVUqQE6axQcqkkTJ7V04PyochOlIdt9Siw5oyChhdcVgS90n_a-e9oJ1dYnfLoMKsjrWVC2eNEnw7rdf2TNwT0PoRVRKF0cfeHHgQgAHE_DOYkOdUPaY_D51S30/s1600/as%20logo%20new.png" alt="Client 5">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE8WPoWH2W6cE1nU3IxM6ax03C0eMMtxCqw0aCsv8JkXbH3J0EAPkmJBGba2Zk5FVL773gZ-2G1h-GCCMjU1NXWg-hRz0rNKofI3zMbcBheqYFeCqEBtXqH-xBIOOOzR5WpsaLsOwNxViUhpaAyQ0lInpvo4msglN7DhIG7UFIT0-PWqdgL_FZOY6VHNaD/s1600/UYF.png" alt="Client 1">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJVMWc6j9EH-wROlPqkgVypdwHdYa-ouO-j_mkjG4pSglM-8iHO0mjh79LpfwHQl_7WW1Y4EoHtd6j92giDmDmT3OoSko3kE9b7U5_TouSZn2bUQRL2hC8cqniJneBwisBEX5Q44_OUAIoDg6WjqzbmbRxMEDMwUH5qbEXUv9vMjGS4KKs-rBA2B2frl70/s1600/Screenshot%202023-08-22%20160025.png" alt="Client 2">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDATnQre0zK0I9fUTSG0FP0KiOgaO-B7zgyEZUpCsnLabGGrXoSfacJmorIKruFw7xOroKJ29K-o8xSnL9EZJZPZAPmt_nIisy7yM4ILS8SQUk4LpSShEIyr4gWs6PGYpj8Lv0jClfGP7ByAP3XkHWvokgKpNslnvjkWtoLPWyZGCmNoVSNHcHhSLzNS3v/s1600/AsOvi%20%281%29.png" alt="Client 3">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpBDPWSjqVIV8hmsG1qwMpkw86vwZ2BJxgSvlY6UD2sEcazJIHGOLhpCE7WehlJiCHye29-IfrU_sI1qKGmV1Wmc4hTvRWT3E8Ue34GYXzY_3e2W1Hpgax5LsBRccq6xcKw9W36L8naNeezBAa5hpf8fyB9yvnMY7je_quQkLpI4yCCZL6SHTHQtcv6kkP/s1600/AsOvi.png" alt="Client 4">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9cjiazJ79t6bA4UPpqXb0_lb8tFQXW-8DPSTOoXuwmCo0xrN3cdwBtR9koXuLCKbLOPQuLszx2BHMPL30IAF4g-RMiQIS0oYsTTF1VcrvG-7N2fPfDUfX1sYHrs8nG0BjATzjSuIaTFNTuA1nAQOXPRknlcn69Ec4_VWmJRkmwhXy6WAh22HaMyhZwzon/s1600/as%20%281%29.png" alt="Client 5">
+             <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlEsriIJo7Dlct1rNP3yc112vTf1E-5gvG_Hp4njylNIGKqPLXI8nxa1qdMPoDJO7WJ943_z92DdkX2O49s-irONl9pK-m3iWqVMpnLOBeeiazlHaJlKkdVCJhXIFwQN68Lm_AdXwurp3c7C4BijMMboisZ5cgSMtZ1PRvtyhbtfOMh3WMn-XiUXfq5xJP/s1600/AVvXsEhzHn1e8P2XhZmS04I8eL-lE2Ir.png" alt="Client 1">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_GYTcr0I3IA299wJCdf_mXbtcpfX6knYsvl9iNNZsMiAKc50yeJZiwETJWr8RXtBbgFOhKyB5iX5V2YhBvpVfUNrSdb0rZNRQIgJMn5aTAk7VJ_d0l2vMoQFBa_EjoeL3h9orclEQ8lhY5O8gw-7zwpCNMxuIdfDGCKqMxr6N-YkFKLC-9SZabbODYJVu/s1600/Untitled%20design%20%281%29.png" alt="Client 2">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2DkDg90Dv3arTay2PceXnEr4U4k-zrKka7KSBcvc-86KRb0bNw51C0BhsXtKpql2GXasr4N8YJnrFvDnMA4engSrrMg7iQd68lELd4fSgsYGofD2UYB36ZGa_ObFt0lJwoOKP313dvUL-ZlTLyyMfHFWcEermyJgS79-T2SMPqRokKit0YnQ4JoMc16Dc/s1600/dfuirguifdg.png" alt="Client 3">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxRrNhuIJp2PUDdmkCkg_qUhBiGHjgvexSUktZ67rhVK4MXBwN4XDCepgjcRjIFzNoNR9kg8ckT3bFKBtMTSB8wip5FL7724ZwvXbzvnExUClkgpwl49DTRlU871kB8amjV9ZOd7nUSO768JFfY7rEB1rXTAAPCqLjhf6JpEkLAkqw-kUn-TMZk7Cqu1tm/s1600/as%20logo%203d%20new.png" alt="Client 4">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8pZIWccjChU_DYdRLhjxz1zQ5Fcf1H7v_eRvv5KLVG9IzOwZ6gFOYprhyNU7iCjud3XVUqQE6axQcqkkTJ7V04PyochOlIdt9Siw5oyChhdcVgS90n_a-e9oJ1dYnfLoMKsjrWVC2eNEnw7rdf2TNwT0PoRVRKF0cfeHHgQgAHE_DOYkOdUPaY_D51S30/s1600/as%20logo%20new.png" alt="Client 5">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE8WPoWH2W6cE1nU3IxM6ax03C0eMMtxCqw0aCsv8JkXbH3J0EAPkmJBGba2Zk5FVL773gZ-2G1h-GCCMjU1NXWg-hRz0rNKofI3zMbcBheqYFeCqEBtXqH-xBIOOOzR5WpsaLsOwNxViUhpaAyQ0lInpvo4msglN7DhIG7UFIT0-PWqdgL_FZOY6VHNaD/s1600/UYF.png" alt="Client 1">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJVMWc6j9EH-wROlPqkgVypdwHdYa-ouO-j_mkjG4pSglM-8iHO0mjh79LpfwHQl_7WW1Y4EoHtd6j92giDmDmT3OoSko3kE9b7U5_TouSZn2bUQRL2hC8cqniJneBwisBEX5Q44_OUAIoDg6WjqzbmbRxMEDMwUH5qbEXUv9vMjGS4KKs-rBA2B2frl70/s1600/Screenshot%202023-08-22%20160025.png" alt="Client 2">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDATnQre0zK0I9fUTSG0FP0KiOgaO-B7zgyEZUpCsnLabGGrXoSfacJmorIKruFw7xOroKJ29K-o8xSnL9EZJZPZAPmt_nIisy7yM4ILS8SQUk4LpSShEIyr4gWs6PGYpj8Lv0jClfGP7ByAP3XkHWvokgKpNslnvjkWtoLPWyZGCmNoVSNHcHhSLzNS3v/s1600/AsOvi%20%281%29.png" alt="Client 3">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpBDPWSjqVIV8hmsG1qwMpkw86vwZ2BJxgSvlY6UD2sEcazJIHGOLhpCE7WehlJiCHye29-IfrU_sI1qKGmV1Wmc4hTvRWT3E8Ue34GYXzY_3e2W1Hpgax5LsBRccq6xcKw9W36L8naNeezBAa5hpf8fyB9yvnMY7je_quQkLpI4yCCZL6SHTHQtcv6kkP/s1600/AsOvi.png" alt="Client 4">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9cjiazJ79t6bA4UPpqXb0_lb8tFQXW-8DPSTOoXuwmCo0xrN3cdwBtR9koXuLCKbLOPQuLszx2BHMPL30IAF4g-RMiQIS0oYsTTF1VcrvG-7N2fPfDUfX1sYHrs8nG0BjATzjSuIaTFNTuA1nAQOXPRknlcn69Ec4_VWmJRkmwhXy6WAh22HaMyhZwzon/s1600/as%20%281%29.png" alt="Client 5">
+    </div>
+</div>
+
+</body>
+</html>
